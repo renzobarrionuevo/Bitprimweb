@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 573 376">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        opacity: 0.397;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_445" data-name="Rectangle 445" class="cls-1" width="573" height="376" transform="translate(-5690 1904)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_132" data-name="Mask Group 132" class="cls-2" transform="translate(5690 -1904)">
+    <g id="Group_1219" data-name="Group 1219" class="cls-3" transform="translate(-5516 -43)">
+      <line id="Line_148" data-name="Line 148" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1477.5)"/>
+      <line id="Line_149" data-name="Line 149" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1487.5)"/>
+      <line id="Line_150" data-name="Line 150" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1497.5)"/>
+      <line id="Line_151" data-name="Line 151" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1507.5)"/>
+      <line id="Line_152" data-name="Line 152" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1517.5)"/>
+      <line id="Line_153" data-name="Line 153" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1527.5)"/>
+      <line id="Line_154" data-name="Line 154" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1537.5)"/>
+      <line id="Line_155" data-name="Line 155" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1467.5)"/>
+      <line id="Line_156" data-name="Line 156" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1457.5)"/>
+      <line id="Line_157" data-name="Line 157" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1447.5)"/>
+      <line id="Line_158" data-name="Line 158" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1577.5)"/>
+      <line id="Line_159" data-name="Line 159" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1587.5)"/>
+      <line id="Line_160" data-name="Line 160" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1597.5)"/>
+      <line id="Line_161" data-name="Line 161" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1607.5)"/>
+      <line id="Line_162" data-name="Line 162" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1617.5)"/>
+      <line id="Line_163" data-name="Line 163" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1627.5)"/>
+      <line id="Line_164" data-name="Line 164" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1637.5)"/>
+      <line id="Line_165" data-name="Line 165" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1567.5)"/>
+      <line id="Line_166" data-name="Line 166" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1557.5)"/>
+      <line id="Line_167" data-name="Line 167" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1547.5)"/>
+      <line id="Line_168" data-name="Line 168" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1677.5)"/>
+      <line id="Line_169" data-name="Line 169" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1687.5)"/>
+      <line id="Line_170" data-name="Line 170" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1697.5)"/>
+      <line id="Line_171" data-name="Line 171" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1707.5)"/>
+      <line id="Line_172" data-name="Line 172" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1717.5)"/>
+      <line id="Line_173" data-name="Line 173" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1727.5)"/>
+      <line id="Line_174" data-name="Line 174" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1737.5)"/>
+      <line id="Line_175" data-name="Line 175" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1667.5)"/>
+      <line id="Line_176" data-name="Line 176" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1657.5)"/>
+      <line id="Line_177" data-name="Line 177" class="cls-4" y1="881" x2="1527" transform="translate(-174.5 1647.5)"/>
+    </g>
+  </g>
+</svg>
