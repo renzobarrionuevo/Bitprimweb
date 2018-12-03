@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bitprim</title>
+    
+    <meta name="google" value="notranslate">
+    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,target-densitydpi=device-dpi, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Bitprim"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="images/favicons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="images/favicons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="images/favicons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="images/favicons/mstile-310x310.png" />
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="libs/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="libs/slick/css/slick.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="libs/slick/css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="libs/animate/css/animate.css" />
+    <link rel="stylesheet" href="css/main.min.css">
+
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="images/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="images/favicons/favicon-128.png" sizes="128x128" />
+
+    
+    <script src="https://wchat.freshchat.com/js/widget.js"></script>
+
+  </head>
+  <body translate="no">
+   
+    <!--Freshchat--> 
+    <script>
+      window.fcWidget.init({
+        token: "7f1f3c8a-2a21-4502-8e25-19b4d7355d27",
+        host: "https://wchat.freshchat.com",
+        });
+    </script>
+   
+    <!--Freshdesk tickets-->
+    <script type="text/javascript" src="http://assets.freshdesk.com/widget/freshwidget.js"></script>
+    <script type="text/javascript">
+	      FreshWidget.init("", {"queryString": "&widgetType=popup&formTitle=Suport+tickets&submitThanks=Thank+you+for+your+comment", "utf8": "✓", "widgetType": "popup", "buttonType": "text", "buttonText": "Tickets", "buttonColor": "white", "buttonBg": "#F95700", "alignment": "2", "offset": "50px", "submitThanks": "Thank you for your comment", "formHeight": "500px", "url": "https://bitprim.freshdesk.com"} );
+    </script>
+
+  <navbar class="hidden">
+    <i class="logo icon-bitprim-logo"></i>
+    <span class="toggle-menu">
+      <span class="current-section">Platform</span>
+      <i class="icon-menu active"></i>
+    </span>
+  </navbar>
+
+  <section id="head">
+    <div id="head-scene" class="scene">
+      <div class="layer layer-1"></div>
+      <div class="layer layer-2 hidden" data-depth="0.4"></div>
+      <div class="layer layer-3 hidden" data-depth="0.6"></div>
+      <div class="layer layer-4 hidden" data-depth="1.8"></div>
+      <div class="layer layer-5 hidden" data-depth="0.9"></div>
+    </div>
+    <div class="container" data-left-padding="68px">
+      <h1><img src="images/logo-white.svg" title="Bitprim" alt="Bitprim"></h1>
+      <div class="slogan"><span class="word">Bitcoin</span><span class="word">Protocol</span><span class="word">Implementation</span></div>
+      <h2>Bringing decentralized solutions to everyday life</h2>
+      <div class="news slash-marker">
+        <span class="headline">Bitprim Node 0.16 HF version</span>
+        <span class="summary"><a href="https://github.com/bitprim/bitprim/blob/master/doc/bch-announces/HF-2018-nov-15.md#content-for-the-hard-fork-on-november-15">Download it from Github <i class="icon-arrow-right"></i></a></span>
+      </div>
+      <span class="toggle-menu"><i class="icon-menu active"></i></span>
+      <span class="white-bar"></span>
+    </div>
+  </section>
+
+  <section id="platform">
+    <span class="web-diagonal-strokes-1"></span>
+    <span class="web-diagonal-strokes-2"><span class="stripes"></span></span>
+    <div class="container">
+      <object class="animated vector" data-re-draw-after-animate data-animated="fadeInUpShort" 
+              type="image/svg+xml" data="images/block-vector.svg"></object>
+      <div class="row">
+        <div class="col-12 col-lg-5 info-col pl-lg-0 pr-lg-0">
+          <span class="section-title animated" data-animated="fadeInUpShort" data-animated-options='{"offset":"80%"}'>Our platform is based on a modular architecture simple to modify, expand and learn.</span>
+          <span class="section-text slash-marker orange up animated" data-animated="fadeInUpShort" data-animated-options='{"offset":"80%"}'>Bitprim is a high performance Satoshi Client implementation focused on users requiring 
+          extra performance and flexibility, what makes it the <strong>best platform for Wallets, Exchanges, Block Explorers and Miners</strong>.
+          <br /><br />
+          We actively collaborate with Bitcoin ABC to improve the development of Bitcoin Cash.
+          </span>
+          
+          <div class="underline-link-wrapper development-content-link"><a href="#resources" data-key="resources" data-scroll-offset="-120" class="underline-link scrollable">Get development content</a></div>
+        </div>
+        <div class="col-12 offset-lg-2 col-lg-5 coins-col">
+          <div class="row coin-options">
+            <div class="col-4 col-lg-12 option pr-0 px-lg-5"><i class="icon-bitcoin-cash-BCH"></i><span class="text">Bitcoin Cash</span></div>
+            <div class="col-4 col-lg-12 option px-0 px-lg-5"><i class="icon-bitcoin-BTC"></i><span class="text">Bitcoin</span></div>
+            <div class="col-4 col-lg-12 option pl-0 px-lg-5"><i class="icon-litecoin-LTC"></i><span class="text">Litecoin</span></div>
+          </div>
+
+          <span class="strong-violet-text desc animated" data-animated="fadeInUpShort" data-animated-options='{"offset":"80%"}'>Bitprim’s node implementation has an engine fully compatible with any cryptocurrency based on the original Satoshi Client, which is the foundation &nbsp; of many of the most widely adopted cryptocurrencies in the market.</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 offset-lg-2 col-lg-10">
+          <div class="features">
+            <span class="diagonal-stripes"></span>
+            <div class="features-wrapper">
+              <span class="title">Features</span>
+
+              <div class="feature" id="feature-1">
+                <span class="name">Multi-coin support</span>
+                <span class="ring ring-t2"></span>
+                <div class="arc-wrapper arc-1"><span class="arc"></span></div>
+                <span class="desc">We provide support for multiple cryptocurrencies including Bitcoin Cash (BCH), Bitcoin (BTC) and 
+                Litecoin (LTC) among others, with the possibility to include other tokens.</span>
+              </div>
+              <div class="feature" id="feature-2">
+                <span class="name">Language Agnostic Interface</span>
+                 <span class="ring ring-t4"></span>
+                <div class="arc-wrapper arc-2"><span class="arc"></span></div>
+                <span class="desc">Our platform supports multiple programming languages: C, C++, Go, Python, Node, C# and others.</span>
+              </div>
+              <div class="feature" id="feature-3">
+                <span class="name">RPC Support</span>
+                 <span class="ring ring-t1"></span>
+                <div class="arc-wrapper arc-3"><span class="arc"></span></div>
+                <span class="desc pb-0">Full RPC support to be compatible with software that currently relies on other BCH, BTC and LTC implementations.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="underline-link-wrapper view-products-link"><a href="#products" data-key="products" data-scroll-offset="-100" class="underline-link scrollable">View Our Products</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="services">
+    <object id="services-bg-block-1" class="animated bg-block" data-re-draw-after-animate data-animated="fadeInUpShort" 
+            type="image/svg+xml" data="images/block.svg"></object>
+    <object id="services-bg-block-2" class="animated bg-block" data-re-draw-after-animate data-animated="fadeInUpShort" 
+            type="image/svg+xml" data="images/block.svg"></object>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 offset-lg-2 col-lg-8">
+          <span class="section-title animated" data-animated="fadeInUpShort" data-animated-options='{"offset":"80%"}'>Bitprim is the perfect platform for users willing to modify or expand standard features.</span>
+          <span class="section-text slash-marker orange up animated" data-animated="fadeInUpShort" data-animated-options='{"offset":"80%"}'>We provide a wide variety of services for the development and maintenance of cryptocurrency software.
+          <br /><br />
+          We encourage our users to be part of the process of continuous improvement, through our means of support and consulting that allow us to identify the needs of our users in order to achieve new developments and implementations.
+          </span>
+
+          <div class="services-wrapper">
+            <div class="service" id="service-development">
+              <object class="animated block" data-re-draw-after-animate data-animated="fadeInUpShort" 
+                      type="image/svg+xml" data="images/block.svg"></object>
+              <img class="img" src="images/service-development.svg" alt="Development">
+              <span class="name">Development</span>
+            </div>
+            <div class="service" id="service-implementation">
+              <object class="animated block" data-re-draw-after-animate data-animated="fadeInUpShort" 
+                      type="image/svg+xml" data="images/block.svg"></object>
+              <img class="img" src="images/service-implementation.svg" alt="Implementation">
+              <span class="name">Implementation</span>
+            </div>
+            <div class="service" id="service-support">
+              <object class="animated block" data-re-draw-after-animate data-animated="fadeInUpShort" 
+                      type="image/svg+xml" data="images/block.svg"></object>
+              <img class="img" src="images/service-support.svg" alt="Support">
+              <span class="name">Support</span>
+            </div>
+            <div class="service" id="service-training">
+              <object class="animated block" data-re-draw-after-animate data-animated="fadeInUpShort" 
+                      type="image/svg+xml" data="images/block.svg"></object>
+              <img class="img" src="images/service-training.svg" alt="Training">
+              <span class="name">Training</span>
+            </div>
+            <div class="service" id="service-consultancy">
+              <object class="animated block" data-re-draw-after-animate data-animated="fadeInUpShort" 
+                      type="image/svg+xml" data="images/block.svg"></object>
+              <img class="img" src="images/service-consultancy.svg" alt="Consultancy">
+              <span class="name">Consultancy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="company">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 offset-lg-2 col-lg-6">
+          <span class="section-title animated" data-animated="fadeInUpShort" data-animated-options='{"offset":"80%"}'>Since 2014, we have been creating tools that help and attract developers to boost a massive adoption of cryptocurrencies.</span>
+        </div>
+        <div class="col-12 col-lg-4 pt-lg-5">
+          <span class="section-text slash-marker orange up animated" data-animated="fadeInUpShort" data-animated-options='{"offset":"80%"}'>This was achieved thanks to our <strong>multidisciplinary team trained to integrate and collaborate with other teams</strong> to achieve the objectives set, without leaving aside our transparency, professionalism and customer service that has always been our goal.
+          <br /><br />
+          Bitprim headquarters are based in Argentina.
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="container team-members-container">
+      <div class="team-bg-mask"></div>
+      <div class="row">
+        <div class="col-12 offset-lg-2 col-lg-10 team-col">    
+          <div class="team-carousel">
+            <div class="team-member">
+              <img class="prefetch-hover" src="images/company/juan.jpg" data-original-img="images/company/juan.jpg" data-hover-img="images/user-selected.png" alt="Team Member">
+              <span class="name">Juan Garavaglia</span>
+              <span class="position">CEO Founder</span>
+            </div>
+            <div class="team-member">
+              <img class="prefetch-hover" src="images/company/mariano.jpg" data-original-img="images/company/mariano.jpg" data-hover-img="images/user-selected.png" alt="Team Member">
+              <span class="name">Mariano Orsili</span>
+              <span class="position">CTO Founder</span>
+            </div>
+            <div class="team-member">
+              <img class="prefetch-hover" src="images/company/mateo.jpg" data-original-img="images/company/mateo.jpg" data-hover-img="images/user-selected.png" alt="Team Member">
+              <span class="name">Mateo Friedman</span>
+              <span class="position">Math Expert</span>
+            </div>
+            <div class="team-member">
+              <img class="prefetch-hover" src="images/company/fernando.jpg" data-original-img="images/company/fernando.jpg" data-hover-img="images/user-selected.png" alt="Team Member">
+              <span class="name">Fernando Pelliccioni</span>
+              <span class="position">Lead Developer</span>
+            </div>
+            <div class="team-member">
+              <img class="prefetch-hover" src="images/company/ramiro.jpg" data-original-img="images/company/ramiro.jpg" data-hover-img="images/user-selected.png" alt="Team Member">
+              <span class="name">Ramiro Carlucho</span>
+              <span class="position">Developer</span>
+            </div>
+            <div class="team-member">
+              <img class="prefetch-hover" src="images/company/guillermo.jpg" data-original-img="images/company/guillermo.jpg" data-hover-img="images/user-selected.png" alt="Team Member">
+              <span class="name">Guillermo Paoletti</span>
+              <span class="position">Developer</span>
+            </div>
+            <div class="team-member">
+              <img class="prefetch-hover" src="images/company/dario.jpg" data-original-img="images/company/dario.jpg" data-hover-img="images/user-selected.png" alt="Team Member">
+              <span class="name">Dario Ramos</span>
+              <span class="position">Developer</span>
+            </div>
+            <div class="team-member">
+              <img class="prefetch-hover" src="images/company/mario.jpg" data-original-img="images/company/mario.jpg" data-hover-img="images/user-selected.png" alt="Team Member">
+              <span class="name">Mario Dal Lago</span>
+              <span class="position">Developer</span>
+            </div>
+            <div class="team-member"> 
+              <img class="prefetch-hover" src="images/company/gerardo.jpg" data-original-img="images/company/gerardo.jpg" data-hover-img="images/user-selected.png" alt="Team Member">
+              <span class="name">Gerardo Arceri</span>
+              <span class="position">DevOps</span>
+            </div>
+            <div class="team-member">
+              <img class="prefetch-hover" src="images/company/renzo.jpg" data-original-img="images/company/renzo.jpg" data-hover-img="images/user-selected.png" alt="Team Member">
+              <span class="name">Renzo Barrionuevo</span>
+              <span class="position">Project Manager</span>
+            </div>
+            <div class="team-member">
+              <img class="prefetch-hover" src="images/company/sergio.jpg" data-original-img="images/company/sergio.jpg" data-hover-img="images/user-selected.png" alt="Team Member">
+              <span class="name">Sergio Suchockas</span>
+              <span class="position">Operations Manager</span>
+            </div>
+            <div class="d-none d-lg-inline-block text-center align-self-center contributions-slide">
+              <span class="contributions-txt">We are open for contributors and looking for full time developers.</span>
+              <div class="underline-link-wrapper"><a href="#contact" data-key="contact" data-scroll-offset="0" class="underline-link white scrollable">Contact Us</a></div>
+            </div>
+          </div>
+
+          <span class="contributions-txt d-block d-lg-none">We are open for contributors and looking for full time developers.</span>
+          <div class="underline-link-wrapper d-block d-lg-none"><a href="#contact" data-key="contact" data-scroll-offset="0" class="underline-link white scrollable">Contact Us</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="resources">
+    
+    <div class="container">
+      <object class="animated spider" data-re-draw-after-animate data-animated="fadeInUpShort" 
+            type="image/svg+xml" data="images/block-spider.svg"></object>
+      <div class="row">
+        <div class="col-12 offset-lg-2 col-lg-4 mt-lg-auto mb-lg-auto">
+          
+          <span class="strong-violet-text title animated" data-animated="fadeInUpShort" data-animated-options='{"offset":"80%"}'>Get more installation<br />and development content.</span>
+        </div>
+        <div class="col-12 col-lg-3 mt-4 mt-lg-0">
+          <div class="resource">
+            <i class="icon icon-github"></i>
+            <span class="name">GitHub</span>
+            <a href="https://github.com/bitprim" target="_blank">github.com/bitprim</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 mt-4 mt-lg-0 pr-lg-0">
+          <div class="resource">
+            <i class="icon icon-documents"></i>
+            <span class="name">Bitprim Docs</span>
+            <a href="https://bitprim.github.io/docfx/index.html" target="_blank">Documentation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="products">
+    <div class="container">  
+      <div class="row">
+        <div class="col-12 offset-lg-2 col-lg-10">
+          <img class="main-img" src="images/blockdozer-explorer.png" alt="Blockdozer explorer">
+        </div>
+        <div class="col-12 offset-lg-2 col-lg-10">
+          <span class="section-title animated" data-animated="fadeInUpShort" data-animated-options='{"offset":"80%"}'>The most outstanding products in the market.</span>
+        </div>
+        <div class="col-12 offset-lg-2 col-lg-10">
+          <span class="section-text slash-marker orange up animated" data-animated="fadeInUpShort" data-animated-options='{"offset":"80%"}'>Our products stand out for their <strong>great performance and great response for our users</strong>. We have specialized teams to attend to and improve each of our products.
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 offset-lg-4 col-lg-8 d-lg-flex">
+          <div class="product bitprim-node">
+            <img src="images/bitprim-node-logo.svg" alt="Bitprim Node">
+            <div class="info">
+              <span class="desc"><strong>Bitprim’s Node</strong> is a high performance compatible implementation of the original Satoshi client, updated to natively support BCH, BTC and LTC.</span>
+              <div class="underline-link-wrapper"><a href="https://github.com/bitprim" target="_blank" class="underline-link violet">VISIT BITPRIM’S NODE</a></div>
+            </div>
+          </div>
+          <div class="product keoken">
+            <img src="images/keoken-logo.png" alt="Keoken">
+            <div class="info">
+              <span class="desc"><strong>Keoken</strong> is a second layer solution that involves a digital accounting assets and secure smart contracts platform; it allows transfers of value between parties, and the implementation of business rules required to run most common activities.</span>
+              <div class="underline-link-wrapper"><a href="https://www.keoken.io" target="_blank" class="underline-link violet">VISIT KEOKEN</a></div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+        <div class="col-12 offset-lg-4 col-lg-8 d-lg-flex">
+          <div class="product blockdozer-explorer">
+            <img src="images/blockdozer-explorer-logo.png" alt="Blockdozer explorer">
+            <div class="info">
+              <span class="desc"><strong>Blockdozer explorer</strong> is the fastest BCH browser on the market. It is an online blockchain browser that shows the contents of BCH and BTC. Blockdozer is using all the potential of Bitprim’s node.</span>
+              <div class="underline-link-wrapper"><a href="https://www.blockdozer.com" target="_blank" class="underline-link violet">VISIT BLOCKDOZER</a></div>
+            </div>
+          </div>    
+          <div class="product blockdrome">
+            <img src="images/blockdrome-logo.png" alt="Blockdrome">
+            <div class="info">
+              <span class="desc"><strong>Blockdrome</strong> allows you to explore the entire chain of blocks of the Ethereum platform and is one of the most complete explorers.</span>
+              <div class="underline-link-wrapper"><a href="https://blockdrome.com/" target="_blank" class="underline-link violet">VISIT BLOCKDROME</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 offset-lg-2 col-lg-8 mt-auto mb-auto">
+          <span class="projects-title">PROJECTS USING BITPRIM</span>
+        </div>
+        <div class="col-6 offset-lg-2 col-lg-2 mt-auto mb-auto">
+          <img class="project-logo bitex" src="images/brands/bitex.png" alt="Bitex">
+        </div>
+        <div class="col-6 col-lg-2 mt-auto mb-auto">
+          <img class="project-logo exodus" src="images/brands/exodus.png" alt="Exodus">
+        </div>
+        <div class="col-6 col-lg-2 mt-auto mb-auto">
+          <img class="project-logo ledger" src="images/brands/ledger.png" alt="Ledger">
+        </div>
+        <div class="col-6 col-lg-2 mt-auto mb-auto">
+          <img class="project-logo vault" src="images/brands/vault.png" alt="Vault">
+        </div>
+        <div class="col-12 col-lg-2 mt-auto mb-auto">
+          <img class="project-logo chaintip" src="images/brands/chaintip.svg" alt="Chaintip">
+        </div>
+       
+        
+        <div class="col-12 offset-lg-2 col-lg-8 mt-auto mb-auto">
+          <span class="projects-title">OUR PARTNERS</span>
+        </div>  
+         <div class="col-6 offset-lg-2 col-lg-2 mt-auto mb-auto">
+          <img class="project-logo ovh" src="images/brands/OVH.png" alt="OVH">
+        </div>
+        <div class="col-6 col-lg-2 mt-auto mb-auto">
+          <img class="project-logo jfrogbintray" src="images/brands/JfrogBintray.png" alt="JfrogBintray">
+        </div>   
+        </div>   
+      </div>
+  </section>
+
+  
+  <section id="contact">
+    <div class="container">
+      <object class="animated spider" data-re-draw-after-animate data-animated="fadeInUpShort" 
+              type="image/svg+xml" data="images/block-spider.svg"></object>
+      <div class="row">
+        <div class="col-12 offset-lg-2 col-lg-8">
+          <span class="section-title animated" data-animated="fadeInUpShort" data-animated-options='{"offset":"80%"}'>Let us know what you are thinking.</span>
+        </div>
+        <div class="col-12 offset-lg-2 col-lg-8">
+          <form action="https://formcarry.com/s/pW6h5R90NW" class="contact-form" method="POST">
+            <div class="field">
+              <label for="name">First name</label>
+              <input type="text" name="name" value="">
+            </div>
+            <div class="field">
+              <label for="lastName">Last name</label>
+              <input type="text" name="lastName" value="">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="text" name="email" value="">
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea name="message" value=""></textarea>
+            </div>
+
+            <div class="captcha">
+              <!-- img src="images/captcha.png" alt="Captcha" -->
+              <div class="g-recaptcha" data-sitekey="6LcZ3GEUAAAAAGtue55D27WJy5LX22sTZxw_cdD7"></div>
+            </div>
+
+            <div class="result hidden"><i class="icon-confirmation"></i><span>We’ll review your submission and be back in touch.</span></div>
+            <div class="gral-error hidden"><i class="icon-close"></i><span>There was a problem with form submission. Please try again.</span></div>
+            
+            <div class="underline-link-wrapper submit-btn-wrapper">
+              <button class="underline-link" type="submit" name="submitButton" value="Send">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      </div>    
+  </section>
+
+  
+  <aside id="sidebar" class="hidden">
+    <i class="close icon-close closing"></i>
+    <i class="logo icon-bitprim-logo"></i>
+    <!--
+    <div class="lang">
+      <a href="" class="active">en</a>
+      <a href="">es</a>
+    </div>
+    -->
+
+    <div class="sections">
+      <a href="#platform" class="active" data-key="platform" data-scroll-offset="0">Platform</a>
+      <a href="#services" data-key="services" data-scroll-offset="-75">Services</a>
+      <a href="#company" data-key="company" data-scroll-offset="-115">Company</a>
+      <a href="#resources" data-key="resources" data-scroll-offset="-120">Resources</a>
+      <a href="#products" data-key="products" data-scroll-offset="-100">Products</a>
+      <a href="#contact" data-key="contact" data-scroll-offset="0">Contact</a>
+    </div>
+  </aside>
+
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 offset-lg-2 col-lg-4">
+          <div class="footer-info">
+            <i class="icon-address"></i>
+            <a class="text" href="https://goo.gl/maps/4A4LckGKS7t" target="_blank">Esmeralda 950, Piso 17, Oficina 109<br />
+            Ciudad Autónoma de Buenos Aires<br />
+            Argentina</a>
+          </div>
+        </div>
+        <div class="col-6 mt-4-5 mt-lg-0 col-lg-3">
+          <div class="footer-info">
+            <i class="icon-phone"></i>
+            <a class="text" href="tel:+541153657265">+54 11 5365 7265</a>
+          </div>
+        </div>
+        <div class="col-6 mt-4-5 mt-lg-0 col-lg-3">
+          <div class="footer-info">
+            <i class="icon-email"></i>
+            <a class="text" href="mailto:info@bitprim.com">info@bitprim.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bitprim">
+      <i class="icon-bitprim-logo logo">
+        <span class="line"></span>
+      </i>
+    </div>
+  </footer>
+
+
+    
+    <script src="libs/jquery/jquery-3.3.1.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/slick/js/slick.min.js"></script>
+    <script src="libs/waypoints/js/jquery.waypoints.min.js"></script>
+    <script src="libs/smooth-scroll/js/jquery.smooth-scroll.min.js"></script>
+    <script src="libs/parallax/js/parallax.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
